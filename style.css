@@ -1,0 +1,84 @@
+:root {
+    --color-container: #13293D;
+    --color-buttonClick: #006494;
+    --color-buttonHover: #247BA0;
+    --color-button: #1B98E0;
+    --color-body: #E8F1F2;
+    --color-fonte:#fcfcfc;    
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-color: var(--color-body);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    
+}
+
+#input-tarefa, #button{
+    outline: none;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+#input-tarefa{
+    width: 25rem;
+}
+
+#button{
+    background-color: var(--color-button);
+    color: var(--color-fonte);
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: 0 6px #999;
+}
+
+#button:hover{
+    background-color: var(--color-buttonHover);
+}
+
+#button:active{
+    background-color: var(--color-buttonClick);
+    transition: none;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+.list-tarefa{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#list-tarefa li{
+ list-style: none;
+ font-size: 1.5rem; 
+ display: flex;
+ justify-content: space-around;  
+}
+
+
