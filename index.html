@@ -9,12 +9,19 @@
 <body>
     <h1 class="titulo-h1">Gerenciador de Terefas</h1>
     <div class="container">
-        <input class="input-tarefa" placeholder="adicione sua tarefa">
-        <button class="button" type="button">Adicionar</button>
+        <div class="conteudo">
+            <input id="input-tarefa" placeholder="adicione sua tarefa">
+            <button id="button" onclick="addTarefa()" type="button" title="Clique aqui para adicionar a tarefa">Adicionar</button>
 
-        <ul class="list-tarefa">
+        </div>
+        <div class="conteudo-ul">
+            <ul id="list-tarefa">
+                <li>teste<button>concluído</button></li>
+                <li>teste</li>
+                <li>teste</li>
+            </ul>
 
-        </ul>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
