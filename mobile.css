@@ -1,0 +1,10 @@
+/* ainda falta corrigir */
+@media screen and (max-width:850px) {
+    .titulo-h1{
+        text-align: center;
+    }
+    
+    #input-tarefa{
+        text-align: center;
+    }
+}

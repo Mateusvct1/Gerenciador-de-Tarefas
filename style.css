@@ -4,12 +4,14 @@
     --color-buttonHover: #247BA0;
     --color-button: #1B98E0;
     --color-body: #E8F1F2;
-    --color-fonte:#fcfcfc;    
+    --color-fonte:#fcfcfc;  
+      
 }
 
 * {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -33,6 +35,7 @@ body{
     align-items: center;
     gap: 1rem;
     flex-wrap: wrap;
+    
     
 }
 
@@ -71,14 +74,14 @@ body{
     color: var(--color-fonte);
     cursor: pointer;
     transition: 1s;
-    padding: 0.5rem;
+    padding: 1rem;
     border-radius: 10px;
     border: none;
     box-shadow: 2px 6px 6px #666;
     
 }
 
-#remover-btn:hover{
+#remove-btn:hover{
     background-color: var(--color-buttonHover);
 
 }
@@ -102,6 +105,5 @@ body{
  padding: 15px;
  border-radius: 10px;
  background-color: var(--color-fonte);
+ align-items: center;
  }
-
-
