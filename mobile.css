@@ -1,10 +1,17 @@
 /* ainda falta corrigir */
 @media screen and (max-width:850px) {
+    .conteudo{
+        justify-content: center;
+    }
+    #button{
+        width: 100%;
+    }
     .titulo-h1{
         text-align: center;
     }
     
     #input-tarefa{
         text-align: center;
+        width: 20rem;
     }
 }
