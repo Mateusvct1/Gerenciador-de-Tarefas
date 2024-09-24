@@ -5,7 +5,9 @@
     --color-button: #1B98E0;
     --color-body: #E8F1F2;
     --color-fonte:#fcfcfc;  
-      
+    --color-buttonHoverRemover:rgb(204, 17, 17);
+    --color-buttonClickRemover:rgb(163, 19, 19);
+
 }
 
 * {
@@ -75,18 +77,18 @@ body{
     cursor: pointer;
     transition: 1s;
     padding: 1rem;
-    border-radius: 10px;
+    border-radius: 50%;
     border: none;
     box-shadow: 2px 6px 6px #666;
-    
+   
 }
 
 #remove-btn:hover{
-    background-color: var(--color-buttonHover);
+    background-color: var(--color-buttonHoverRemover);
 
 }
 #remove-btn:active{
-    background-color: var(--color-buttonClick);
+    background-color: var(--color-buttonClickRemover);
     transition: none;
     transform: translateY(4px);
 }
@@ -107,3 +109,22 @@ body{
  background-color: var(--color-fonte);
  align-items: center;
  }
+
+ .footer__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+ }
+ .rodape__social {
+    display: flex;
+    list-style: none;
+}
+.rodape__midia {
+    display: block;
+    width: 42px;
+    height: 42px;
+    margin: 2rem 1rem;
+    
+}
